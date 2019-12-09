@@ -3,7 +3,7 @@ Pathmon is an IP Hop /AS Path monitoring tool
 
 ## Why? How?
 
-More on this on my blog: easyipv6.wordpress.com/2019/12/09/python3-routing-path-monitoring-tool/
+More on this on my blog: http://easyipv6.wordpress.com/2019/12/09/python3-routing-path-monitoring-tool/
 
 # pathmon.py
 
