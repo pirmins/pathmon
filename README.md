@@ -5,7 +5,7 @@ Pathmon is an IP Hop /AS Path monitoring tool
 
 More on this on my blog: http://easyipv6.wordpress.com/2019/12/09/python3-routing-path-monitoring-tool/
 
-# pathmon.py
+# what it basically does
 
 Remember the goal is to have access to AS Path, RTT, Loss historical data afterwards & be able to be alerted about them in realtime, if necessary.
 
