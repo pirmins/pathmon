@@ -100,4 +100,4 @@ Link to SVG: http://server.domain.tld:8080/targets/216.218.186.2/svg/last-06-12-
 ```
 An SVG would then look like this for example:
 
-[Alt text](https://i.ibb.co/9scHmGg/svg.png "sample svg")
+![Alt text](https://i.ibb.co/9scHmGg/svg.png "sample svg")
