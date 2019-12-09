@@ -197,10 +197,10 @@ def compare_to_last_trace(tracepath):
                                 else:
                                     print('but not same hop')
                             if c1 > 0:
+                                pktloss=True
                                 print('anyway there is some packetloss on this hop')
                                 if c2 > 0:
                                     print('...just like before')
-                                    pktloss=True
                                 else:
                                     print('there was none before')
                             else:
