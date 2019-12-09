@@ -38,16 +38,16 @@ For each IP 
 
 The directory structure is automatically created during script execution.
   
-  config_file
-  pathmon.py
-  targets/
-        |-172.16.10.254
-              |-trace/
-                  |-last
-                  |-"timestamp"
-              |-svg/
-                  |-last.svg
-                  |-"timestamp".svg
+  - config_file
+  - pathmon.py
+  - targets/
+    - 172.16.10.254
+      - trace/
+        - last
+        - "timestamp"
+      - svg/
+         - last.svg
+         - timestamp".svg
                   
 ## Apache2 integration
 
