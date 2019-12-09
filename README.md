@@ -21,10 +21,16 @@ Read a list of IP destinations to trace too
 
 For each IP 
   Use MTR to generate an output
+  
   Parse the output
+  
   store the formated data in a file with timestamp
+  
   Parse the formated data & generate an SVG
+  
   Store the SVG with timestamp
+  
   Check if the last trace before changed in some way (RTT >, Loss, AS Path)
+  
   If yes generate E-Mail Alert with details & links to the data (Apache2 serving the file listing)
  
