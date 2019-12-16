@@ -6,7 +6,6 @@ import sys
 import base64
 import os
 import ipaddress
-import os
 import socket
 import smtplib
 from graphviz import *
