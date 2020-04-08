@@ -226,6 +226,10 @@ def main(cfgfile):
                 # define tracepath variable
                 tracepath = 'targets/'+target+'/trace/'
                 svgpath = 'targets/'+target+'/svg/'
+                
+                #remove all files older than 30 days
+                os.system("find " + tracepath + " -mtime +30 -delete")
+                os.system("find " + svgpath + " -mtime +30 -delete")
 
                 # ensures directory structure exists or then creates it
                 os.system('mkdir -p '+tracepath)
